@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3333/',
+  baseURL: 'https://api.render.com/deploy/srv-d2r6dmp5pdvs738tllkg?key=wbM51B4obRA',
 });
 
 export async function doGet(url: string) {
